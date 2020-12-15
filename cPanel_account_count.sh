@@ -1,4 +1,5 @@
 #!/bin/bash
+#script by Amaldeep <amaldeeppjcoc1@gmail.com>
 
 for i in `cat /proc/vz/veinfo | awk '{print $1}'|egrep -v '^0$'`; do 
 
